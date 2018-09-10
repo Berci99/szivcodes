@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+
+void forditottpiramis (int meret){
+    
+    for(int i=1; i<(meret+1); i++){
+    for(int j=i; j<(meret+1); j++){
+        cout<<j;
+    }
+    cout<<endl;
+   
+    }
+}
+
+
+
+
+
+void teljesenforditottpiramis (int meret){
+    
+    for(int i=1; i<(meret+1); i++){
+    for(int j=1; j<i+1; j++){
+        cout<<j;
+    }
+    cout<<endl;
+   
+    }
+}
+
+
+int main()
+{
+     teljesenforditottpiramis(5);
+    
+
+    return 0;
+}
